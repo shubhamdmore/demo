@@ -1,0 +1,32 @@
+Hibernate Framework
+Hibernate is a Java framework that simplifies the development of Java application to interact with the database. It is an open source, lightweight, ORM (Object Relational Mapping) tool. Hibernate implements the specifications of JPA (Java Persistence API) for data persistence.
+
+What is JPA?
+Java Persistence API (JPA) is a Java specification that provides certain functionality and standard to ORM tools. The javax.persistence package contains the JPA classes and interfaces.
+
+orm--> object relation mapping it is s/w act as intermidiate b/w java api and database
+
+* advantages of hibernate
+
+1) Open Source and Lightweight
+
+2) Fast Performance
+
+3) Database Independent Query
+
+4) Automatic Table Creation
+
+The Hibernate architecture is categorized in four layers.
+
+Java application layer
+Hibernate framework layer
+Backhand api layer
+Database layer
+
+Hibernate Example using Annotation in Eclipse
+The hibernate application can be created with annotation. There are many annotations that can be used to create hibernate application such as @Entity, @Id, @Table etc.
+
+Hibernate Annotations are based on the JPA 2 specification and supports all the features.
+
+All the JPA annotations are defined in the javax.persistence package. Hibernate EntityManager implements the interfaces and life cycle defined by the JPA specification.
+

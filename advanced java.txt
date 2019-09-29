@@ -1,0 +1,123 @@
+Q 1 ---> what is jdk
+
+The Java Development Kit (JDK) is a software development environment used for developing Java applications and applets. It includes the Java Runtime Environment (JRE), an interpreter/loader (Java), a compiler (javac), an archiver (jar), a documentation generator (Javadoc) and other tools needed in Java development
+
+JRE stands for “Java Runtime Environment” and may also be written as “Java RTE.” The Java Runtime Environment provides the minimum requirements for executing a Java application; it consists of the Java Virtual Machine (JVM), core classes, and supporting files.
+
+Q 2--> what is letest version of java
+The latest version of Java till date is Java SE 11.0.2 released on 15th January 2019.
+
+Q 3--> expain the advantages of java
+1-->platform independent 
+2-->oops
+3--> high performance
+4-->secure
+5--> multithreading
+6--> easy to understand
+
+Q 4--> java commands
+1--> javac pgmname.java (compile java pgm)
+2-->java pgmname (run javapgm)
+
+Q 5-->what is signature of main method in java
+public static void main(String args[])
+
+Q 6-->explain keyword 
+keyword are the word whoes meaning alreday know to the comiler
+
+Q 7 ---> Expailn about litral
+value stored in variable is called as litral
+
+Q 8--> Why java is independent
+
+Q9 --> is jvm platform independent
+no
+
+Q 10 --> diffrance between compiler and interprter
+
+
+Q 11--> What is the high level language
+A high-level language is one which is understandable by us humans. It contains words and phrases from the English (or other) language. But a computer does not understand high-level language. It only understands program written in 0's and 1's in binary, called the machine code
+
+Q 12--> Java code convention rule
+
+
+
+
+
+
+
+
+Q 13-> what is jre 
+java run time enviroment . jer is part of jdk jre is platform where we can run java pgm w/o jer we can not run java pgm
+
+jre = java libreray + jvm
+
+Q 15--> variable in java ---->
+variable is the name of memory location where we can store the value
+
+1--> local variable
+2-->class variable(static  variable)
+3-->instance variable
+
+Q 16--> list all preimitive data type in java
+
+byte --> 1byte
+short --> 2 byte
+int --> 4 byte
+long--> 8 byte
+float--> 4 byte
+double--> 8 byte
+char --> 2 byte
+boolaean --> 1 bit
+
+static block --->
+
+static{
+}
+
+{
+syso("this is non static block");
+}
+
+================================================
+
+* clsess and object--------------->
+
+Q1---> what is an object
+A Java object is a combination of data and procedures working on the available data. An object has a state and behavior. The state of an object is stored in fields (variables), while methods (functions) display the object's behavior. Objects are created from templates known as classes.
+
+Q2---> what is class--->
+classes is blueprint of an object
+it is collection of data member and member function
+
+
+Q3---> ststic and non static member in java
+
+static member in java
+
+static variable-->
+static method-->
+static class-->
+
+non static member in java
+
+Q 4---> global variable in java
+
+there are 3types of variable in java
+
+1-->local variable
+2-->ststic variable or class variable
+3-->instance variable
+
+Q5---> explin about global variable
+
+technically in java global variable in not possible but we can create such as by using public static keyword
+
+Q 6---> diffrance b/w local and global variable
+
+Q 7--> explain about constructor--->
+
+constructor chainning
+
+Constructor chaining is the process of calling one constructor from another constructor with respect to current object. Constructor chaining can be done in two ways: Within same class: It can be done using this() keyword for constructors in same class.
